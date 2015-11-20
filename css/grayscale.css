@@ -158,16 +158,13 @@ a:focus {
     background-size: cover;
     -o-background-size: cover;
 }
-
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
 }
-
 .intro .intro-body .brand-heading {
     font-size: 40px;
 }
-
 .intro .intro-body .intro-text {
     font-size: 18px;
 }
@@ -177,11 +174,9 @@ a:focus {
         height: 100%;
         padding: 0;
     }
-
     .intro .intro-body .brand-heading {
         font-size: 100px;
     }
-
     .intro .intro-body .intro-text {
         font-size: 26px;
     }
@@ -265,9 +260,11 @@ a:focus {
     padding-top: 100px;
 }
 
+/*
 .download-section {
-    width: 100%;
-    padding: 50px 0;
+    max-width: 100vw;
+    padding: 0;
+    margin: 0;
     color: #fff;
     background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
     background-color: #000;
@@ -275,6 +272,36 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+*/
+
+.download {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.download .download-sadness {
+    display: table-cell;
+    vertical-align: middle;
+}
+.download .download-sadness .brand-heading {
+    font-size: 40px;
+}
+.download .download-sadness .download-text {
+    font-size: 18px;
+}
+.download .download-sadness row {
+    height: 100%;
+    width: 100%;
 }
 
 #map {
